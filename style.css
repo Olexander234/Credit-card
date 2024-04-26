@@ -1,0 +1,122 @@
+body {
+    background: #ddeefc;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+  }
+
+
+
+
+  .card-wrapper{
+    width: 751px;
+    height: 381px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.card-back, .card-front{
+    width: 535px;
+    height: 343px;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.card-back{
+    right: 0;
+    bottom: 0;
+    background: rgba(42, 37, 37, 0.36);
+}
+
+.card-front{
+    background: rgb(24, 23, 23);
+    
+}
+
+.card-back-line{
+    width: 90%;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 50px;
+}
+
+#cvv {
+    position: absolute;
+    right: 40px;
+    bottom: 112px;
+    width: 100px;
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.card-image{
+    height: 50px;
+    position: absolute;
+    bottom: 200px;
+    left: 30px;
+    
+}
+
+.card-logo{
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+
+
+}
+
+.cardnumber{
+    position: absolute;
+   width: 450px;
+   height: 50px;
+    border: 1px solid #393737;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    top: 150px;
+    margin: 0 5% auto;
+    outline: none;
+    background: #393737;
+}
+
+#card-to-year, #card-to-month{
+    position: absolute;
+    background: #393737;
+    margin-left: 3%;
+    font-size: 7px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    width: 60px;
+    text-align: center;
+    bottom: 80px;
+    left: 5%;
+}
+
+#card-to-year{
+    left: 20%;
+}
+
+
+
+
+
+
+.text-center{
+    color: #fff;
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 25px; 
+    
+}
+   
+.text-center_2{
+    color: #4f4c4c;
+    margin-left: 100px;
+    font-size: 10px;
+    top: 200px;  
+   
+}   
+
